@@ -1,7 +1,7 @@
 # GulliverTravellerMVC
-##Fase 6 - Atividade 3
+## Fase 6 - Atividade 3
 
-##Descrição
+## Descrição
 
 Esta é uma atividade que deve ser desenvolvida de forma individual ou em grupo de, no máximo, cinco (5) integrantes.
 
