@@ -1,0 +1,94 @@
+@charset "UTF-8";* {
+  transition: 0.33s ease all;
+  box-sizing: border-box;
+}
+
+span {
+  display: inline-block;
+  width: 50px;
+  height: 5px;
+  background-color: #76b3e6;
+  margin-bottom: 6px;
+}
+
+div.main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.container {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 6px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+imag {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 0 0 10px;
+}
+
+p {
+  font-weight: 300;
+  line-height: 24px;
+  margin: 0 0 30px 0;
+}
+
+div.imag1 {
+  height: 300px;
+  width: 50%;
+  background: url("../images/dicas/passaporte.png");
+  background-position: center;
+  background-size: cover;
+}
+
+div.imag2 {
+  height: 300px;
+  width: 50%;
+  background: url("../images/dicas/cambio.png");
+  background-position: center;
+  background-size: cover;
+}
+
+div.imag3 {
+  height: 300px;
+  width: 50%;
+  background: url("../images/dicas/visto.png");
+  background-position: center;
+  background-size: cover;
+}
+
+div.text-container {
+  margin: 30px 45px 55px;
+}
+
+@media screen and (min-width: 768px) {
+  div.container {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  div.imag {
+    height: 420px;
+    min-width: 360px;
+  }
+  div.text-container {
+    margin: 0 20px;
+    max-width: 660px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  div.container {
+    max-width: 1200px;
+  }
+}
